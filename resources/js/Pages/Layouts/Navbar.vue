@@ -30,7 +30,7 @@
                         </li>
 
                          <li class="nav-item">
-                            <inertia-link href="/" class="nav-link">API</inertia-link>
+                            <a href="/" class="nav-link">Trakteer Me</a>
                         </li>
                     </ul>
                    

@@ -3097,6 +3097,43 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
@@ -3464,7 +3501,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.scroll[data-v-2f2d152e] {\n    max-height: 500px;\n    overflow-y: auto;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.scroll[data-v-2f2d152e] {\r\n    max-height: 500px;\r\n    overflow-y: auto;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -3488,7 +3525,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.scroll[data-v-0b562582] {\n    max-height: 500px;\n    overflow-y: auto;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.scroll[data-v-0b562582] {\r\n    max-height: 500px;\r\n    overflow-y: auto;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -25046,18 +25083,7 @@ var render = function() {
                     1
                   ),
                   _vm._v(" "),
-                  _c(
-                    "li",
-                    { staticClass: "nav-item" },
-                    [
-                      _c(
-                        "inertia-link",
-                        { staticClass: "nav-link", attrs: { href: "/" } },
-                        [_vm._v("API")]
-                      )
-                    ],
-                    1
-                  )
+                  _vm._m(1)
                 ])
               ]
             )
@@ -25088,6 +25114,16 @@ var staticRenderFns = [
       },
       [_c("span", { staticClass: "navbar-toggler-icon" })]
     )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "nav-item" }, [
+      _c("a", { staticClass: "nav-link", attrs: { href: "/" } }, [
+        _vm._v("Trakteer Me")
+      ])
+    ])
   }
 ]
 render._withStripped = true
@@ -25125,14 +25161,14 @@ var render = function() {
             _c("div", { staticClass: "card" }, [
               _c(
                 "div",
-                { staticClass: "card-body " },
+                { staticClass: "card-body" },
                 [
                   _c("p", { staticClass: "text-justify" }),
-                  _c("h1", [_vm._v("Privacy Policy for QrGen")]),
+                  _c("h1", [_vm._v("Privacy Policy for QR-GEN")]),
                   _vm._v(" "),
                   _c("p", [
                     _vm._v(
-                      "At QrGen, accessible from  , one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by QrGen and how we use it."
+                      "At qr-gen, accessible from qrgen.smktelematikaindramayu.sch.id, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by qr-gen and how we use it."
                     )
                   ]),
                   _vm._v(" "),
@@ -25142,9 +25178,63 @@ var render = function() {
                     )
                   ]),
                   _vm._v(" "),
+                  _vm._m(0),
+                  _vm._v(" "),
+                  _c("h2", [_vm._v("Consent")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "By using our website, you hereby consent to our Privacy Policy and agree to its terms."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("h2", [_vm._v("Information we collect")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("h2", [_vm._v("How we use your information")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "We use the information we collect in various ways, including to:"
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _vm._m(1),
+                  _vm._v(" "),
                   _c("h2", [_vm._v("Log Files")]),
                   _vm._v(" "),
-                  _vm._m(0),
+                  _c("p", [
+                    _vm._v(
+                      "qr-gen follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("h2", [_vm._v("Cookies and Web Beacons")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Like any other website, qr-gen uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _vm._m(2),
                   _vm._v(" "),
                   _c("h2", [_vm._v("Our Advertising Partners")]),
                   _vm._v(" "),
@@ -25154,25 +25244,27 @@ var render = function() {
                     )
                   ]),
                   _vm._v(" "),
-                  _vm._m(1),
+                  _c("p", [_vm._v("Google")]),
                   _vm._v(" "),
-                  _c("h2", [_vm._v("Privacy Policies")]),
+                  _vm._m(3),
+                  _vm._v(" "),
+                  _c("h2", [_vm._v("Advertising Partners Privacy Policies")]),
                   _vm._v(" "),
                   _c("P", [
                     _vm._v(
-                      "You may consult this list to find the Privacy Policy for each of the advertising partners of QrGen."
+                      "You may consult this list to find the Privacy Policy for each of the advertising partners of qr-gen."
                     )
                   ]),
                   _vm._v(" "),
                   _c("p", [
                     _vm._v(
-                      "Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on QrGen, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit."
+                      "Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on qr-gen, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit."
                     )
                   ]),
                   _vm._v(" "),
                   _c("p", [
                     _vm._v(
-                      "Note that QrGen has no access to or control over these cookies that are used by third-party advertisers."
+                      "Note that qr-gen has no access to or control over these cookies that are used by third-party advertisers."
                     )
                   ]),
                   _vm._v(" "),
@@ -25180,13 +25272,99 @@ var render = function() {
                   _vm._v(" "),
                   _c("p", [
                     _vm._v(
-                      "QrGen's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. "
+                      "qr-gen's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. "
                     )
                   ]),
                   _vm._v(" "),
                   _c("p", [
                     _vm._v(
-                      "You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites. What Are Cookies?"
+                      "You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("h2", [
+                    _vm._v(
+                      "CCPA Privacy Rights (Do Not Sell My Personal Information)"
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Under the CCPA, among other rights, California consumers have the right to:"
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Request that a business delete any personal data about the consumer that a business has collected."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Request that a business that sells a consumer's personal data, not sell the consumer's personal data."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("h2", [_vm._v("GDPR Data Protection Rights")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:"
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "The right to erasure – You have the right to request that we erase your personal data, under certain conditions."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us."
                     )
                   ]),
                   _vm._v(" "),
@@ -25200,23 +25378,7 @@ var render = function() {
                   _vm._v(" "),
                   _c("p", [
                     _vm._v(
-                      "QrGen does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records."
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("h2", [_vm._v("Online Privacy Policy Only")]),
-                  _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in QrGen. This policy is not applicable to any information collected offline or via channels other than this website."
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("h2", [_vm._v("Consent")]),
-                  _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "By using our website, you hereby consent to our Privacy Policy and agree to its Terms and Conditions."
+                      "qr-gen does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records."
                     )
                   ])
                 ],
@@ -25237,7 +25399,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("p", [
       _vm._v(
-        "QrGen follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information. Our Privacy Policy was created with the help of the "
+        "This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in qr-gen. This policy is not applicable to any information collected offline or via channels other than this website. Our Privacy Policy was created with the help of the "
       ),
       _c(
         "a",
@@ -25247,12 +25409,8 @@ var staticRenderFns = [
               "https://www.privacypolicyonline.com/privacy-policy-generator/"
           }
         },
-        [_vm._v("Privacy Policy Generator")]
+        [_vm._v("Online Generator of Privacy Policy")]
       ),
-      _vm._v(" and the "),
-      _c("a", { attrs: { href: "https://www.generateprivacypolicy.com" } }, [
-        _vm._v("Privacy Policy Generator")
-      ]),
       _vm._v(".")
     ])
   },
@@ -25261,17 +25419,55 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("ul", [
+      _c("li", [_vm._v("Provide, operate, and maintain our website")]),
+      _vm._v(" "),
+      _c("li", [_vm._v("Improve, personalize, and expand our website")]),
+      _vm._v(" "),
+      _c("li", [_vm._v("Understand and analyze how you use our website")]),
+      _vm._v(" "),
       _c("li", [
-        _c("p", [_vm._v("Google")]),
-        _vm._v(" "),
-        _c("p", [
-          _c(
-            "a",
-            { attrs: { href: "https://policies.google.com/technologies/ads" } },
-            [_vm._v("https://policies.google.com/technologies/ads")]
-          )
-        ])
-      ])
+        _vm._v("Develop new products, services, features, and functionality")
+      ]),
+      _vm._v(" "),
+      _c("li", [
+        _vm._v(
+          "Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes"
+        )
+      ]),
+      _vm._v(" "),
+      _c("li", [_vm._v("Send you emails")]),
+      _vm._v(" "),
+      _c("li", [_vm._v("Find and prevent fraud")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _vm._v("For more general information on cookies, please read "),
+      _c(
+        "a",
+        {
+          attrs: {
+            href: "https://www.privacypolicyonline.com/what-are-cookies/"
+          }
+        },
+        [_vm._v('"What Are Cookies" from Cookie Consent')]
+      ),
+      _vm._v(".")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _c(
+        "a",
+        { attrs: { href: "https://policies.google.com/technologies/ads" } },
+        [_vm._v("https://policies.google.com/technologies/ads")]
+      )
     ])
   }
 ]
